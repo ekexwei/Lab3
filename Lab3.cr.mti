@@ -1,0 +1,264 @@
+{D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/ripple_carry_adder.vhd} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/ripple_carry_adder.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package code
+-- Compiling entity ripple_carry_adder
+-- Compiling architecture structure of ripple_carry_adder
+
+} {} {}} {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Data_path_tb.vhd} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Data_path_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity Data_path_tb
+-- Compiling architecture behave of Data_path_tb
+
+} {} {}} {{D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Data_path_tb.vhd}} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Data_path_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity Data_path_tb
+-- Compiling architecture behave of Data_path_tb
+
+} {} {}} {{D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/ripple_carry_adder.vhd}} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/ripple_carry_adder.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package code
+-- Compiling entity ripple_carry_adder
+-- Compiling architecture structure of ripple_carry_adder
+
+} {} {}} {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file.vhd} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity register_file
+-- Compiling architecture behave of register_file
+
+} {} {}} {{D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file.vhd}} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity register_file
+-- Compiling architecture behave of register_file
+
+} {} {}} {{D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/test_cpu_advanced.vhd}} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/test_cpu_advanced.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package util
+-- Loading package code
+-- Compiling entity test
+-- Compiling architecture test_cpu_advanced of test
+
+} {} {}} {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Data_path.vhd} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Data_path.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package code
+-- Compiling entity Data_path
+-- Compiling architecture behave of Data_path
+
+} {} {}} {{D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Data_path.vhd}} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Data_path.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package code
+-- Compiling entity Data_path
+-- Compiling architecture behave of Data_path
+
+} {} {}} {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder_tb.vhd} {2 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity full_adder_tb
+-- Compiling architecture behave of full_adder_tb
+** Warning: [4] D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder_tb.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Clock_Divider_tb.vhd} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Clock_Divider_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Clock_Divider_tb
+-- Compiling architecture behave of Clock_Divider_tb
+
+} {} {}} {{D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Clock_Divider_tb.vhd}} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Clock_Divider_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Clock_Divider_tb
+-- Compiling architecture behave of Clock_Divider_tb
+
+} {} {}} {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/cpu.vhd} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/cpu.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package code
+-- Compiling entity cpu
+-- Compiling architecture behave of cpu
+
+} {} {}} {{D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/cpu.vhd}} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/cpu.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package code
+-- Compiling entity cpu
+-- Compiling architecture behave of cpu
+
+} {} {}} {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/ripple_carry_adder_tb.vhd} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/ripple_carry_adder_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity ripple_carry_adder_tb
+-- Compiling architecture test of ripple_carry_adder_tb
+
+} {} {}} {{D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/ripple_carry_adder_tb.vhd}} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/ripple_carry_adder_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity ripple_carry_adder_tb
+-- Compiling architecture test of ripple_carry_adder_tb
+
+} {} {}} {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder.vhd} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity full_adder
+-- Compiling architecture structure of full_adder
+
+} {} {}} {{D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Clock_Divider.vhd}} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Clock_Divider.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Clock_Divider
+-- Compiling architecture behave of Clock_Divider
+
+} {} {}} {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/code.vhd} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/code.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling package code
+
+} {} {}} {{D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/code.vhd}} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/code.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling package code
+
+} {} {}} {{D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder_tb.vhd}} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity full_adder_tb
+-- Compiling architecture behave of full_adder_tb
+** Warning: [4] D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder_tb.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd} {2 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity register_file_tb
+-- Compiling architecture behave of register_file_tb
+** Warning: [14] D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd(51): (vcom-1272) Length of expected is 3; length of actual is 4.
+
+** Warning: [14] D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd(52): (vcom-1272) Length of expected is 3; length of actual is 4.
+
+** Warning: [14] D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd(58): (vcom-1272) Length of expected is 3; length of actual is 4.
+
+** Warning: [14] D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd(59): (vcom-1272) Length of expected is 3; length of actual is 4.
+
+** Warning: [14] D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd(67): (vcom-1272) Length of expected is 3; length of actual is 4.
+
+** Warning: [14] D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd(68): (vcom-1272) Length of expected is 3; length of actual is 4.
+
+
+} {} {}} {{D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd}} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity register_file_tb
+-- Compiling architecture behave of register_file_tb
+** Warning: [14] D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd(51): (vcom-1272) Length of expected is 3; length of actual is 4.
+
+** Warning: [14] D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd(52): (vcom-1272) Length of expected is 3; length of actual is 4.
+
+** Warning: [14] D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd(58): (vcom-1272) Length of expected is 3; length of actual is 4.
+
+** Warning: [14] D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd(59): (vcom-1272) Length of expected is 3; length of actual is 4.
+
+** Warning: [14] D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd(67): (vcom-1272) Length of expected is 3; length of actual is 4.
+
+** Warning: [14] D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd(68): (vcom-1272) Length of expected is 3; length of actual is 4.
+
+
+} {} {}} {{D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder.vhd}} {1 {vcom -work work -2002 -explicit {D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity full_adder
+-- Compiling architecture structure of full_adder
+
+} {} {}}
