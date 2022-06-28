@@ -1,0 +1,313 @@
+m255
+K3
+13
+cModel Technology
+dD:\Abroad\EIT\KTH\Digital Design and Validation\IL2203\Practice
+Eclock_divider
+Z0 w1634346280
+Z1 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dD:\Abroad\EIT\KTH\Digital Design and Validation\IL2203\Lab3
+Z7 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Clock_Divider.vhd
+Z8 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Clock_Divider.vhd
+l0
+L7
+VY2B?YkXFK:5LfeOgeTj`O2
+Z9 OV;C;10.1d;51
+32
+Z10 !s108 1656412722.073000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Clock_Divider.vhd|
+Z12 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Clock_Divider.vhd|
+Z13 o-work work -2002 -explicit -O0
+Z14 tExplicit 1
+!s100 ^BizPh_;[;RC3n>Z_8Ub=2
+!i10b 1
+Abehave
+R1
+R2
+R3
+R4
+R5
+DEx4 work 13 clock_divider 0 22 Y2B?YkXFK:5LfeOgeTj`O2
+l18
+L15
+VGFGSo5>f?hSGlKGQml<ce3
+R9
+32
+R10
+R11
+R12
+R13
+R14
+!s100 29Rd8bDFHKKjZd_Pi1Qci3
+!i10b 1
+Eclock_divider_tb
+Z15 w1634346280
+R4
+R5
+R6
+Z16 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Clock_Divider_tb.vhd
+Z17 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Clock_Divider_tb.vhd
+l0
+L3
+VBW<ggcjOkV[=MnJE7FN4f3
+R9
+32
+Z18 !s108 1656412722.140000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Clock_Divider_tb.vhd|
+Z20 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Clock_Divider_tb.vhd|
+R13
+R14
+!s100 T6S66SRi`eT^z`CSA1VLK1
+!i10b 1
+Abehave
+R4
+R5
+DEx4 work 16 clock_divider_tb 0 22 BW<ggcjOkV[=MnJE7FN4f3
+l18
+L7
+V?j2SI9GUoYL9OQ9zSlAK]3
+R9
+32
+R18
+R19
+R20
+R13
+R14
+!s100 _XCWOQ1aK[@=DEGH0:FUP2
+!i10b 1
+Edata_path_tb
+R15
+R3
+Z21 DPx4 ieee 16 std_logic_signed 0 22 E>OLoMaBGQ?hbGgOoNXM^1
+R1
+R4
+R5
+R6
+Z22 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Data_path_tb.vhd
+Z23 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Data_path_tb.vhd
+l0
+L8
+VBA]zXg5b1CW@SRU9]HRBe3
+R9
+32
+Z24 !s108 1656412722.261000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Data_path_tb.vhd|
+Z26 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/Data_path_tb.vhd|
+R13
+R14
+!s100 FK:9DQHJA8gIAE9UfKMU>0
+!i10b 1
+Abehave
+R3
+R21
+R1
+R4
+R5
+DEx4 work 12 data_path_tb 0 22 BA]zXg5b1CW@SRU9]HRBe3
+l52
+L13
+Vniz;cX5QOSF?OY[j;<C8c0
+R9
+32
+R24
+R25
+R26
+R13
+R14
+!s100 AD5FHejdGMQU;gC4e9^k02
+!i10b 1
+Efull_adder
+R15
+R1
+R4
+R5
+R6
+Z27 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder.vhd
+Z28 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder.vhd
+l0
+L5
+VMzll3jd]=zV:><i>J3[kP1
+R9
+32
+Z29 !s108 1656412722.333000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder.vhd|
+Z31 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder.vhd|
+R13
+R14
+!s100 NTmk=J7OKHePLK>=k[lC00
+!i10b 1
+Astructure
+R1
+R4
+R5
+DEx4 work 10 full_adder 0 22 Mzll3jd]=zV:><i>J3[kP1
+l15
+L13
+Vlm;[UVBEff9]RlcDc`o^J2
+R9
+32
+R29
+R30
+R31
+R13
+R14
+!s100 mKbT1FdYDES?4@:mEOh2P1
+!i10b 1
+Efull_adder_tb
+R15
+R1
+R4
+R5
+R6
+Z32 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder_tb.vhd
+Z33 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder_tb.vhd
+l0
+L5
+V[W;Yh<3agQ3c3ioCd3^Y31
+R9
+32
+Z34 !s108 1656412722.404000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder_tb.vhd|
+Z36 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/full_adder_tb.vhd|
+R13
+R14
+!s100 hTfMd>g583^CFz8>i]zVU1
+!i10b 1
+Abehave
+R1
+R4
+R5
+DEx4 work 13 full_adder_tb 0 22 [W;Yh<3agQ3c3ioCd3^Y31
+l20
+L9
+Vd6jkLcAl^36UDY^F?QTLI3
+R9
+32
+R34
+R35
+R36
+R13
+R14
+!s100 ==7TeC=65`0OV0=W493Z41
+!i10b 1
+Eregister_file
+R15
+R3
+R4
+R5
+R6
+Z37 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file.vhd
+Z38 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file.vhd
+l0
+L8
+V47jYR=l[6?[j3K>?J98H>2
+R9
+32
+Z39 !s108 1656412722.494000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file.vhd|
+Z41 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file.vhd|
+R13
+R14
+!s100 ^Q2AiQc4m2dz9^YNfT=V:1
+!i10b 1
+Abehave
+R3
+R4
+R5
+DEx4 work 13 register_file 0 22 47jYR=l[6?[j3K>?J98H>2
+l29
+L25
+VhHIRaDR^?`]BAfYKFAeZT0
+R9
+32
+R39
+R40
+R41
+R13
+R14
+!s100 U4JlDObE8g[LK]o5Cb>Oi1
+!i10b 1
+Eregister_file_tb
+R15
+R3
+R21
+R1
+R4
+R5
+R6
+Z42 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd
+Z43 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd
+l0
+L8
+VMAWQI^>?jc87QJY_Q1?hz2
+R9
+32
+Z44 !s108 1656412722.577000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd|
+Z46 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/register_file_tb.vhd|
+R13
+R14
+!s100 4_LT6i;DcnYBmK?6>V?Om0
+!i10b 1
+Abehave
+R3
+R21
+R1
+R4
+R5
+DEx4 work 16 register_file_tb 0 22 MAWQI^>?jc87QJY_Q1?hz2
+l40
+L13
+VN54G7KK@jKd8XSoJ]lano2
+!s100 c@;>ZK12iXP_IY0o57i_d1
+R9
+32
+R44
+R45
+R46
+R13
+R14
+!i10b 1
+Eripple_carry_adder_tb
+R15
+R21
+R1
+R4
+R5
+R6
+Z47 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/ripple_carry_adder_tb.vhd
+Z48 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/ripple_carry_adder_tb.vhd
+l0
+L7
+V83jka[ff3zol1fcQcgbiH1
+!s100 SG=Yj?6Na;;KPM:QKK@ek3
+R9
+32
+!i10b 1
+Z49 !s108 1656412722.708000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/ripple_carry_adder_tb.vhd|
+Z51 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/Lab3/ripple_carry_adder_tb.vhd|
+R13
+R14
+Atest
+R21
+R1
+R4
+R5
+Z52 DEx4 work 21 ripple_carry_adder_tb 0 22 83jka[ff3zol1fcQcgbiH1
+l26
+L11
+Z53 V<fP<Zd5iM?<Q=g7>T>G4n0
+Z54 !s100 ijKoMM<k=W3`29<6`d;2b1
+R9
+32
+!i10b 1
+R49
+R50
+R51
+R13
+R14
