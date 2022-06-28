@@ -1,3 +1,4 @@
+--bruh
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;    -- defines "+", "-" and "*" for std_logic_vectors to be unsigned
