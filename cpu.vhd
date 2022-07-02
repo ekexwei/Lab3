@@ -67,6 +67,7 @@ architecture behave of cpu is
     begin
 SE_DIN    <= std_logic_vector(resize(signed(IR(9 downto 0)),N));
 SE_OFFSET <= std_logic_vector(resize(signed(IR(11 downto 0)),N));
+
 InstructionREGISTER:
 process (upc,reset,Din)
 begin
@@ -112,9 +113,9 @@ if reset = '1' then
         end if;
 end if;
 end process;
+
 AddressAndDout: 
 process(M_instr_sig,reset,DOUT_temp)
-
 begin
 if reset = '1' then 
     address <= (others => '0');
@@ -124,16 +125,17 @@ elsif M_instr_sig.ADDRESS_REG_EN = '1' then
 elsif M_instr_sig.DOUT_REG_EN = '1' then
     Dout <= DOUT_temp;
 end if;
-
 end process;
 
-A2_MUX:with IR(13 downto 12) select A_2_temp <=
+A2_MUX:
+with IR(13 downto 12) select A_2_temp <=
 L_z when "00",
 L_n when "01",
 L_o when others;
 RW <= M_instr_sig.MEMRRWbar;
 
-ROM:    micro_assembly_code_ROM port map 
+ROM:    micro_assembly_code_ROM
+port map 
 (
     A_6_3    => IR(15 downto 12),
     A_2      => A_2_temp,
@@ -141,6 +143,7 @@ ROM:    micro_assembly_code_ROM port map
     M_instr  => M_instr_sig     
 );
 -- IE OE ALU_OP ALU_EN D_write_sig  D_RA_sig     D_RB_sig     Bypass       MEMRRWbar    ADDRESS_REG_EN   DOUT_REG_EN
+
 DataPath:   Data_path 
 Generic map (N => N , M => M )
 port map

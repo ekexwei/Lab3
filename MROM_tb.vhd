@@ -6,7 +6,6 @@ use IEEE.NUMERIC_STD.ALL;
 use work.code.all;
 
 entity MROM_tb is 
-
 end MROM_tb; 
 
 architecture behave of MROM_tb is 
