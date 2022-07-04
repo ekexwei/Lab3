@@ -33,6 +33,7 @@ port(
 end Data_path;
 
 
+
 architecture behave of Data_path is 
 
 component Clock_Divider is 
@@ -42,15 +43,18 @@ port(
 );
 end component;
 
+
 component alu is 
 Generic (N : integer );
-port(
+  port
+  (
     a, b        : in  std_logic_vector( N-1 downto 0);
     op          : in  std_logic_vector( 2 downto 0);
     y           : out std_logic_vector( N-1 downto 0);
     z_f,n_f,o_f : out std_logic;
     clk,en,reset: in std_logic
-    );
+  );
+  
 end component; 
 
 component register_file is 
@@ -69,7 +73,6 @@ port(
     QA,QB           : out std_logic_vector(N-1 downto 0)
 );
 end component;
-
 signal MUX_OP         : std_logic_vector(N-1 downto 0);
 signal TEMP_SUM       : std_logic_vector(N-1 downto 0);
 signal temp_QA        : std_logic_vector(N-1 downto 0);    
@@ -84,8 +87,7 @@ signal RA_temp        : std_logic_vector(M-1 downto 0);
 signal WAddr_temp     : std_logic_vector(M-1 downto 0);
 begin
 
-MUX1:
-process (D_IE,D_WD,TEMP_SUM)
+MUX1: process (D_IE,D_WD,TEMP_SUM)
 begin
     if (D_IE = '1') then
         MUX_OP <= D_WD;
@@ -93,9 +95,7 @@ begin
         MUX_OP <= TEMP_SUM;
     end if;
 end process;
-
-BYPASSMUXB:
-process (BypassB,D_clk,offset,temp_QB,D_RA,D_WAddr)
+BYPASSMUXB: process (BypassB,D_clk,offset,temp_QB,D_RA,D_WAddr)
 begin
     if (BypassB = '1') then
         temp_QB2    <= offset;
@@ -106,9 +106,7 @@ begin
     end if;
 
 end process;
-
-BYPASSMUXA:
-process (BypassA,offset,temp_QA)
+BYPASSMUXA: process (BypassA,offset,temp_QA)
 begin
     if (BypassA = '1') then
         WAddr_temp <= (others => '1');
@@ -118,8 +116,7 @@ begin
 
 end process;
 
-BYPASSMUXC:
-process(temp_QA,D_output1,BypassC)
+BYPASSMUXC:process(temp_QA,D_output1,BypassC)
 begin
     if (BypassC = '1' ) then
         D_output <= temp_QA;
@@ -128,12 +125,11 @@ begin
     end if;
 end process;
 
-BYPASSMUXD:
-process(temp_QA,D_output1,BypassD)
+BYPASSMUXD:process(temp_QA,D_output1,BypassD)
 begin
     if (BypassD = '1' ) then
         D_output <= temp_QB;
-    else 
+        else 
         D_output <= D_output1;
     end if;
 end process;
@@ -152,7 +148,7 @@ begin
     end if;
 end process;
 
-REG_FILE: register_file
+REG_FILE: register_file 
 Generic map( N  => N , M => M)
 port map (   
     WD            => MUX_OP,
@@ -184,8 +180,7 @@ port map (
 
 ); 
 
-CLOCK_DIV: Clock_Divider
-port map (
+CLOCK_DIV: Clock_Divider port map (
     clk_in      => D_clk,
     clk_out     => temp_clk
 );

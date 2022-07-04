@@ -14,7 +14,7 @@ end entity;
 
 
 architecture behave of Clock_Divider is
-signal reg      : std_logic_vector(26 downto 0 ) := (others => '0');
+signal reg : std_logic_vector(26 downto 0 ) := (others => '0');
 
 begin 
 process (clk_in)

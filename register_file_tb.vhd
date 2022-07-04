@@ -10,10 +10,10 @@ entity register_file_tb is
 
 end entity;
 
+
 architecture behave of register_file_tb is 
 
 component register_file is 
-
 Generic (N,M: integer);
 port(
     WD              : in std_logic_vector (N-1 downto 0) ;
@@ -40,8 +40,19 @@ signal  QA,QB           :  std_logic_vector(N-1 downto 0);
 begin
 
     DUT : register_file
-   generic map (N,M)
-    port map(WD  , WAddr, write_sig, RA,RB, RA_sig, RB_sig, rst, clk, QA, QB);
+    generic map (N,M)
+    port map(WD => WD,
+             WAddr => WAddr,
+             write_sig => write_sig,
+             RA => RA,
+             RB => RB,
+             RA_sig => RA_sig,
+             RB_sig => RB_sig,
+             rst => rst,
+             clk => clk,
+             QA => QA,
+             QB => QB);
+
     clk <= not clk after 2 ns;
 
 process
